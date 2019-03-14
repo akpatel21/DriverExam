@@ -31,7 +31,7 @@ public class DriverExam
 	
 	public boolean passed(char[] studentAnswers)
 	{
-		if(totalCorrect(studentAnswers)/correctAnswers.length >= 0.75)
+		if(((double) totalCorrect(studentAnswers))/correctAnswers.length >= 0.75)
 		{
 			return true;
 		}
